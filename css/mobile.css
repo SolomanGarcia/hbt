@@ -13,6 +13,16 @@
   border-bottom: #444 dotted 1px;
 }
 
+#showcase {
+  height: 100%;
+
+}
+
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
 #home-info {
   height: 550px;
   display: none;
@@ -30,4 +40,22 @@
 .box {
   float: none;
   width: 100%;
+}
+
+#about-info .info-right,
+#about-info .info-left {
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-right {
+  margin-top: 30px;
+}
+
+.l-heading {
+  text-align: center;
+}
+
+#contact-info .box {
+  border-bottom: #444 dotted 1px;
 }
